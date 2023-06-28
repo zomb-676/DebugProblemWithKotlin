@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "GNU Affero General Public License v3.0"
+issueTrackerURL = "https://github.com/Low-Drag-MC/Lens/issues"
+
+[[mods]]
+modId = "lens"
+version = "${version}"
+displayName = "Lens"
+displayURL = "https://github.com/Low-Drag-MC/Lens"
+logoFile = "icon.png"
+credits = ""
+authors = "zomb_676"
+description = '''a mod for displaying stuffs'''
+
+[[dependencies.lens]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.lens]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,1.21)"
+ordering = "NONE"
+side = "BOTH"
